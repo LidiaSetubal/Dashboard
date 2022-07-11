@@ -16,7 +16,8 @@ const App = () => {
               className="text-3x1 p-3
               hover:drop-shadow-xl
               hover:bg-light-gray text-white"
-              style={{ background: 'blue'}}>
+              style={{ background: 'blue',
+              borderRadius: '50px'}}>
                 <FiSettings />
               </button>
             </TooltipComponent>
